@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///testjwt?characterEncoding=UTF-8
+    username: root
+    password: 4117
+#\u6574\u5408mybatis
+mybatis:
+  type-aliases-package: com.fuy.pojo
+  mapper-locations: classpath:mybatis/mapper/*.xml
+
+
+
+
